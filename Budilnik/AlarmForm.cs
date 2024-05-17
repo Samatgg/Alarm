@@ -58,7 +58,6 @@ namespace Budilnik
             if (!string.IsNullOrEmpty(textBoxEditAlarm.Text))
             {
                 listBoxAlarms.Items[listBoxAlarms.SelectedIndex] = textBoxEditAlarm.Text;
-
                 textBoxEditAlarm.Text = "";
                 textBoxEditAlarm.Visible = false;
                 btnUpdate.Visible = false;
